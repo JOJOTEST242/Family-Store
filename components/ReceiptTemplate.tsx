@@ -38,7 +38,7 @@ const ReceiptTemplate = React.forwardRef<HTMLDivElement, ReceiptTemplateProps>((
         </div>
         <div className="text-right">
           <p className="mb-1">付款狀態: 已完成</p>
-          <p>支付方式: 數位錢包</p>
+          <p>支付方式: 現金</p>
         </div>
       </div>
 
