@@ -32,6 +32,13 @@ export const INITIAL_PRODUCTS: Product[] = [
     imageUrl: "https://i.meee.com.tw/9ziewpL.jpg"
   },
   {
+    id: "f4",
+    name: "金御飯糰（鮪魚口味）",
+    price: 30,
+    category: Category.FAMILY_MART,
+    imageUrl: "https://i.meee.com.tw/KXQX0Xj.jpg"
+  },  
+  {
     id: "c1",
     name: "饅頭",
     price: 20,
@@ -44,6 +51,13 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 20,
     category: Category.CHINESE_BREAKFAST,
     imageUrl: "https://i.meee.com.tw/KXjxY8e.jpg"
+  },
+    {
+      id: "c3",
+    name: "肉包",
+    price: 20,
+    category: Category.CHINESE_BREAKFAST,
+    imageUrl: "https://i.meee.com.tw/f38smD2.jpg"
   },
   {
     id: "w1",
@@ -92,6 +106,14 @@ export const Icons = {
   ArrowUp: () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="m18 15-6-6-6 6"/>
+    </svg>
+  ),
+  Calendar: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+      <line x1="16" y1="2" x2="16" y2="6"></line>
+      <line x1="8" y1="2" x2="8" y2="6"></line>
+      <line x1="3" y1="10" x2="21" y2="10"></line>
     </svg>
   )
 };
